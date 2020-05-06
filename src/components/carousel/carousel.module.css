@@ -1,0 +1,62 @@
+.carousel_parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+.card_container {
+  width: 100%;
+  position: relative;
+  height: 90%;
+}
+.carousel_card_front,
+.carousel_card_back {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: white;
+}
+
+.carousel_card_front {
+  z-index: 2;
+}
+
+.carousel_card_back {
+  z-index: 1;
+}
+.controller_container {
+  position: relative;
+  margin-top: -8%;
+  margin-left: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100px;
+  z-index: 3;
+}
+.bullet_active,
+.bullet_inactive {
+  border: none;
+  background-color: #0099ff;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-left: 1%;
+  cursor: pointer;
+}
+.bullet_inactive {
+  background-image: linear-gradient(221.9deg, #d5e2e9 0%, #eaeef1 100%);
+}
+@media (max-width: 1920px) {
+  .controller_container {
+    margin-top: -15%;
+  }
+}

@@ -1,0 +1,23 @@
+.tab_parent_active,
+.tab_parent_inactive {
+  min-width: 125px;
+  min-height: 46px;
+  width: 25%;
+  height: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 0.6em;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+}
+.tab_parent_active {
+  border: 3px solid #0099ff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+}
+.tab_parent_inactive {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+}

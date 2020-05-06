@@ -1,0 +1,60 @@
+.card_parent {
+  min-width: 214px;
+  min-height: 230px;
+  width: 9em;
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  box-shadow: 0 2px 5px 0 rgba(113, 100, 100, 0.3);
+  transition: transform 0.3s;
+  position: relative;
+  background-color: white;
+  cursor: pointer;
+}
+.card_parent:hover {
+  transform: scale(1.2);
+}
+.card_h1 {
+  width: 80%;
+  margin: 0px;
+  margin-bottom: 20%;
+  color: #31373d;
+  font-size: 1em;
+  text-align: left;
+  position: absolute;
+  top: 10%;
+}
+.card_h2 {
+  width: 80%;
+  margin: 0px;
+  /* margin-top: 20%; */
+  color: #3d3c31;
+  font-size: 1.6em;
+  text-align: left;
+}
+.card_span {
+  color: #8b8e91;
+  font-size: 0.4em;
+  font-weight: 400;
+}
+.card_serving {
+  width: 80%;
+  margin: 0px;
+  color: #31373d;
+  font-size: 0.6em;
+  text-align: left;
+}
+.last_two_wrapper {
+  /* margin-top: -10%; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  top: 50%;
+}
