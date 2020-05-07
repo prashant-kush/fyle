@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react';
 
@@ -28,7 +29,6 @@ const Carousel = ({ cardArray }) => {
       </div>
       <div className={styles.controller_container}>
         {cardArray.map((card, index) => (
-          // eslint-disable-next-line jsx-a11y/control-has-associated-label
           <button
             type="button"
             className={index === activeCard ? styles.bullet_active : styles.bullet_inactive}

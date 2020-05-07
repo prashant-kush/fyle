@@ -1,10 +1,10 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 
 import styles from './switch.module.css';
 
 const Switch = ({ toggleSwitch, value }) => {
   return (
-    // eslint-disable-next-line jsx-a11y/label-has-associated-control
     <label className={styles.switch}>
       <input
         type="checkbox"
